@@ -40,21 +40,7 @@ export function BetaNotification() {
         mixBlendMode: 'difference',
       }}
     >
-      <a
-        href="https://beta.tldraw.com"
-        style={{
-          height: '48px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: 8,
-          fontSize: 'inherit',
-          color: 'inherit',
-        }}
-        title="Try the new tldraw at beta.tldraw.com"
-      >
-        Try the new tldraw!
-      </a>
+     
       <button
         style={{
           height: '48px',
