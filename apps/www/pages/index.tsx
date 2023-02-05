@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>tldraw</title>
+        <title>Iftiin-Board</title>
       </Head>
       <Editor id="home" showUI={!isExportMode} />
     </>
