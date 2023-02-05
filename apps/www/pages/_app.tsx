@@ -4,7 +4,7 @@ import type React from 'react'
 import '~styles/globals.css'
 import useGtag from '~utils/useGtag'
 
-const APP_NAME = 'iftiin-Board'
+const APP_NAME = 'Iftiin-Board'
 const APP_DESCRIPTION = 'In-house whiteboard tool.'
 const APP_URL = 'https://iftiinboard.live'
 const IMAGE = 'https://tldraw.com/social-image.png'
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }: any) {
         />
 
         <link rel="manifest" href="/manifest.json" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/board.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
 
         <title>Iftiin-Board</title>
