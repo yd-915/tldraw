@@ -1,10 +1,10 @@
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
 import {
   ExternalLinkIcon,
-  GitHubLogoIcon,
   HeartFilledIcon,
   QuestionMarkIcon,
-  TwitterLogoIcon,
+  InstagramLogoIcon,
+  
 } from '@radix-ui/react-icons'
 import * as Popover from '@radix-ui/react-popover'
 import * as React from 'react'
@@ -66,15 +66,10 @@ const LanguageMenuDropdown = () => {
 }
 
 const linksData = [
-  { id: 'tldraw-beta', icon: ExternalLinkIcon, url: 'https://beta.tldraw.com' },
-  { id: 'github', icon: GitHubLogoIcon, url: 'https://github.com/tldraw/tldraw' },
-  { id: 'twitter', icon: TwitterLogoIcon, url: 'https://twitter.com/tldraw' },
-  { id: 'discord', icon: DiscordIcon, url: 'https://discord.gg/SBBEVCA4PG' },
-  {
-    id: 'become.a.sponsor',
-    icon: HeartFilledIcon,
-    url: 'https://github.com/sponsors/steveruizok',
-  },
+  { id: 'home', icon: ExternalLinkIcon, url: 'https://www.iftiinhub.pro/homepage' },
+  { id: 'instagram', icon: InstagramLogoIcon, url: 'https://instagram.com/official_iftiin' },
+  { id: 'site', icon: Icon, url: 'https://www.iftiin.io' },
+ 
 ]
 
 const Links = () => {
