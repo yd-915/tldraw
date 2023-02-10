@@ -66,7 +66,7 @@ const LanguageMenuDropdown = () => {
 }
 
 const linksData = [
-  { id: 'Home (Pressing this button will open a new instance if the app.)', icon: ExternalLinkIcon, url: 'https://www.iftiinhub.pro/homepage' },
+  { id: 'Home (Pressing this button will open a new instance of the app.)', icon: ExternalLinkIcon, url: 'https://www.iftiinhub.pro/homepage' },
  
 ]
 
