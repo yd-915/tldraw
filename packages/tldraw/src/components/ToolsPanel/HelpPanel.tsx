@@ -66,7 +66,7 @@ const LanguageMenuDropdown = () => {
 }
 
 const linksData = [
-  { id: 'Site', icon: ExternalLinkIcon, url: 'https://www.iftiin.io' },
+  { id: 'Home', icon: ExternalLinkIcon, url: 'https://www.iftiinhub.pro/homepage' },
  
 ]
 
